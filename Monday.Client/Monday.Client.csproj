@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Clint Masden</Authors>
+    <Company>NA</Company>
+    <Product>Monday Client [API Version 2]</Product>
+    <Description>Monday Client Interface [API Version 2]</Description>
+    <PackageTags>Monday Client API Monday.com</PackageTags>
+    <PackageReleaseNotes>Updated dependencies</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/clintmasden/monday.client.v2</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/clintmasden/monday.client.v2</RepositoryUrl>
+    <PackageId>Monday.Client.v2</PackageId>
+	  <LangVersion>Latest</LangVersion>
+	  <Nullable>enable</Nullable>
+    <Version>1.0.0.5</Version>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+    <FileVersion>1.0.0.3</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL.Client" Version="5.1.0" />
+    <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="5.1.0" />
+  </ItemGroup>
+</Project>
