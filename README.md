@@ -10,6 +10,8 @@ A .NET Standard/C# implementation of Monday.com API.
 
 This project was originally cloned from Clint Masden's Monday.Client.V2 project.  It has since been reworked, converted to it's own project, and expanded from the original implementation.
 
+nuget package: https://www.nuget.org/packages/S2Cog.Integrations.Monday/22.8.30.1
+
 ## Getting Started:
 ```
 using System;
