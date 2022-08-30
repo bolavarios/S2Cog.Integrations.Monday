@@ -9,8 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monday.Client.Tests", "Mond
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{C3AE2CE1-85CB-42F8-9D60-C3A7ECE4CD6E}"
 	ProjectSection(SolutionItems) = preProject
-		mit-license.txt = mit-license.txt
-		readme.md = readme.md
+		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

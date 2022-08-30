@@ -3,21 +3,29 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Clint Masden</Authors>
+    <Authors>S2 Cognition</Authors>
     <Company>NA</Company>
     <Product>Monday Client [API Version 2]</Product>
     <Description>Monday Client Interface [API Version 2]</Description>
     <PackageTags>Monday Client API Monday.com</PackageTags>
-    <PackageReleaseNotes>Updated dependencies</PackageReleaseNotes>
-    <PackageProjectUrl>https://github.com/clintmasden/monday.client.v2</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/clintmasden/monday.client.v2</RepositoryUrl>
-    <PackageId>Monday.Client.v2</PackageId>
-	  <LangVersion>Latest</LangVersion>
-	  <Nullable>enable</Nullable>
-    <Version>1.0.0.5</Version>
-    <AssemblyVersion>1.0.0.3</AssemblyVersion>
-    <FileVersion>1.0.0.3</FileVersion>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/S2Cognition/S2Cog.Integrations.Monday</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/S2Cognition/S2Cog.Integrations.Monday</RepositoryUrl>
+    <PackageId>S2Cog.Integrations.Monday</PackageId>
+	<LangVersion>Latest</LangVersion>
+	<Nullable>enable</Nullable>
+    <Version>22.8.30.1</Version>
+    <AssemblyVersion>22.8.30.1</AssemblyVersion>
+    <FileVersion>22.8.30.1</FileVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="GraphQL.Client" Version="5.1.0" />
